@@ -1,50 +1,892 @@
 {
-  "posts": [
-    { eventId: 1, type: 'WEDDING', date: '2017-08-19', location: 'Central Hall', city: 'New York', price: 3000, earnest: 300, description: 'Some info about this special event.', team: { teamId: idGenerator(), teamName: 'Napoleon Band', teamMembers: ['mhm.sami@yahoo.com'], created: new Date() } },
-    { eventId: 2, type: 'ANIVERSARY', date: '2019-08-25', location: 'Wedding Garden', city: 'Chicago', price: 2800, earnest: 200, description: 'lorem ipsum lorem ipsum lorem ipsum', team: { teamId: idGenerator(), teamName: 'Napoleon Band', teamMembers: ['mhm.sami@yahoo.com'], created: new Date() } },
-    { eventId: 3, type: 'WEDDING', date: '2020-07-25', location: 'Central Hall', city: 'New York', price: 4000, earnest: 400, description: 'Some info about this special event.', team: { teamId: idGenerator(), teamName: 'Napoleon Band', teamMembers: ['mhm.sami@yahoo.com'], created: new Date() } },
-    { eventId: 4, type: 'ANIVERSARY', date: '2020-07-18', location: 'Pool Party', city: 'New Orleans', price: 2000, earnest: 100, description: 'Some info about this special event.', team: { teamId: idGenerator(), teamName: 'Napoleon Band', teamMembers: ['mhm.sami@yahoo.com'], created: new Date() } },
-    { eventId: 5, type: 'WEDDING', date: '2019-08-24', location: "Sun's Park", city: 'New York', price: 3500, earnest: 300, description: 'Some info about this special event.', team: { teamId: idGenerator(), teamName: 'Napoleon Band', teamMembers: ['mhm.sami@yahoo.com'], created: new Date() } },
-    { eventId: 6, type: 'WEDDING', date: '2021-04-17', location: 'Chong Restaurant', city: 'Tokio', price: 2700, earnest: 200, description: 'Some info about this special event.', team: { teamId: idGenerator(), teamName: 'Napoleon Band', teamMembers: ['mhm.sami@yahoo.com'], created: new Date() } },
-    { eventId: 7, type: 'GRADUATION PARTY', date: '2019-06-22', location: 'Elysium', city: 'Iasi', price: 3200, earnest: 300, description: 'Some info about this special event.', team: { teamId: idGenerator(), teamName: 'Napoleon Band', teamMembers: ['mhm.sami@yahoo.com'], created: new Date() } },
-    { eventId: 8, type: 'WEDDING', date: '2019-09-14', location: 'Central Hall', city: 'New York', price: 3000, earnest: 300, description: 'Some info about this special event.', team: { teamId: idGenerator(), teamName: 'Napoleon Band', teamMembers: ['mhm.sami@yahoo.com'], created: new Date() } },
-    { eventId: 9, type: 'ANIVERSARY', date: '2019-08-23', location: 'Wedding Garden', city: 'Chicago', price: 2800, earnest: 200, description: 'Some info about this special event.', team: { teamId: idGenerator(), teamName: 'Napoleon Band', teamMembers: ['mhm.sami@yahoo.com'], created: new Date() } },
-    { eventId: 10, type: 'WEDDING', date: '2020-07-25', location: 'Central Hall', city: 'New York', price: 4000, earnest: 400, description: 'Some info about this special event.', team: { teamId: idGenerator(), teamName: 'Napoleon Band', teamMembers: ['mhm.sami@yahoo.com'], created: new Date() } },
-    { eventId: 11, type: 'ANIVERSARY', date: '2020-07-18', location: 'Pool Party', city: 'New Orleans', price: 2000, earnest: 100, description: 'Some info about this special event.', team: { teamId: idGenerator(), teamName: 'Napoleon Band', teamMembers: ['mhm.sami@yahoo.com'], created: new Date() } },
-    { eventId: 12, type: 'WEDDING', date: '2019-08-24', location: "Sun's Park", city: 'New York', price: 3500, earnest: 300, description: 'Some info about this special event.', team: { teamId: idGenerator(), teamName: 'Napoleon Band', teamMembers: ['mhm.sami@yahoo.com'], created: new Date() } },
-    { eventId: 13, type: 'WEDDING', date: '2021-06-19', location: 'Chong Restaurant', city: 'Tokio', price: 2700, earnest: 200, description: 'Some info about this special event.', team: { teamId: idGenerator(), teamName: 'Napoleon Band', teamMembers: ['mhm.sami@yahoo.com'], created: new Date() } },
-    { eventId: 14, type: 'ANIVERSARY', date: '2019-06-23', location: 'Elysium', city: 'Iasi', price: 3200, earnest: 300, description: 'Some info about this special event.', team: { teamId: idGenerator(), teamName: 'Napoleon Band', teamMembers: ['mhm.sami@yahoo.com'], created: new Date() } },
-    { eventId: 15, type: 'WEDDING', date: '2017-09-09', location: 'Central Hall', city: 'New York', price: 3000, earnest: 300, description: 'Some info about this special event.', team: { teamId: idGenerator(), teamName: 'Napoleon Band', teamMembers: ['mhm.sami@yahoo.com'], created: new Date() } },
-    { eventId: 16, type: 'ANIVERSARY', date: '2019-08-25', location: 'Wedding Garden', city: 'Chicago', price: 2800, earnest: 200, description: 'Some info about this special event.', team: { teamId: idGenerator(), teamName: 'Napoleon Band', teamMembers: ['mhm.sami@yahoo.com'], created: new Date() } },
-    { eventId: 17, type: 'WEDDING', date: '2019-08-24', location: 'Central Hall', city: 'New York', price: 4000, earnest: 400, description: 'Some info about this special event.', team: { teamId: idGenerator(), teamName: 'Napoleon Band', teamMembers: ['mhm.sami@yahoo.com'], created: new Date() } },
-    { eventId: 18, type: 'ANIVERSARY', date: '2019-05-18', location: 'Pool Party', city: 'New Orleans', price: 2000, earnest: 100, description: 'Some info about this special event.', team: { teamId: idGenerator(), teamName: 'Napoleon Band', teamMembers: ['mhm.sami@yahoo.com'], created: new Date() } },
-    { eventId: 19, type: 'WEDDING', date: '2019-06-01', location: "Sun's Park", city: 'New York', price: 3500, earnest: 300, description: 'Some info about this special event.', team: { teamId: idGenerator(), teamName: 'Napoleon Band', teamMembers: ['mhm.sami@yahoo.com'], created: new Date() } },
-    { eventId: 20, type: 'WEDDING', date: '2019-11-02', location: 'Chong Restaurant', city: 'Tokio', price: 2700, earnest: 200, description: 'Some info about this special event.', team: { teamId: idGenerator(), teamName: 'Napoleon Band', teamMembers: ['mhm.sami@yahoo.com'], created: new Date() } },
-    { eventId: 21, type: 'GRADUATION PARTY', date: '2019-06-15', location: 'Elysium', city: 'Iasi', price: 3200, earnest: 300, description: 'Some info about this special event.', team: { teamId: idGenerator(), teamName: 'Napoleon Band', teamMembers: ['mhm.sami@yahoo.com'], created: new Date() } },
-    { eventId: 22, type: 'WEDDING', date: '2019-01-12', location: 'Central Hall', city: 'New York', price: 3000, earnest: 300, description: 'Some info about this special event.', team: { teamId: idGenerator(), teamName: 'Ferdinand Band', teamMembers: ['mhm.sami@yahoo.com'], created: new Date() } },
-    { eventId: 23, type: 'ANIVERSARY', date: '2019-12-28', location: 'Wedding Garden', city: 'Chicago', price: 2800, earnest: 200, description: 'Some info about this special event.', team: { teamId: idGenerator(), teamName: 'Ferdinand Band', teamMembers: ['mhm.sami@yahoo.com'], created: new Date() } },
-    { eventId: 24, type: 'WEDDING', date: '2020-10-24', location: 'Central Hall', city: 'New York', price: 4000, earnest: 400, description: 'Some info about this special event.', team: { teamId: idGenerator(), teamName: 'Ferdinand Band', teamMembers: ['mhm.sami@yahoo.com'], created: new Date() } },
-    { eventId: 25, type: 'WEDDING', date: '2020-11-07', location: 'Chong Restaurant', city: 'Tokio', price: 2700, earnest: 200, description: 'Some info about this special event.', team: { teamId: idGenerator(), teamName: 'Ferdinand Band', teamMembers: ['mhm.sami@yahoo.com'], created: new Date() } },
-    { eventId: 26, type: 'GRADUATION PARTY', date: '2020-06-13', location: 'Elysium', city: 'Iasi', price: 3200, earnest: 300, description: 'Some info about this special event.', team: { teamId: idGenerator(), teamName: 'Ferdinand Band', teamMembers: ['mhm.sami@yahoo.com'], created: new Date() } },
-    { eventId: 27, type: 'WEDDING', date: '2020-01-11', location: 'Central Hall', city: 'New York', price: 3000, earnest: 300, description: 'Some info about this special event.', team: { teamId: idGenerator(), teamName: 'Ferdinand Band', teamMembers: ['mhm.sami@yahoo.com'], created: new Date() } },
-    { eventId: 28, type: 'ANIVERSARY', date: '2020-12-26', location: 'Wedding Garden', city: 'Chicago', price: 2800, earnest: 200, description: 'Some info about this special event.', team: { teamId: idGenerator(), teamName: 'Ferdinand Band', teamMembers: ['mhm.sami@yahoo.com'], created: new Date() } },
-    { eventId: 29, type: 'WEDDING', date: '2020-10-24', location: 'Central Hall', city: 'New York', price: 4000, earnest: 400, description: 'Some info about this special event.', team: { teamId: idGenerator(), teamName: 'Formatia Cornel Bujor', teamMembers: ['mhm.sami@yahoo.com'], created: new Date() } },
-    { eventId: 30, type: 'ANIVERSARY', date: '2021-06-26', location: 'Wedding Garden', city: 'Chicago', price: 2800, earnest: 200, description: 'Some info about this special event.', team: { teamId: idGenerator(), teamName: 'Formatia Cornel Bujor', teamMembers: ['mhm.sami@yahoo.com'], created: new Date() } },
-    { eventId: 31, type: 'WEDDING', date: '2018-10-27', location: 'Central Hall', city: 'New York', price: 4000, earnest: 400, description: 'Some info about this special event.', team: { teamId: idGenerator(), teamName: 'Formatia Cornel Bujor', teamMembers: ['mhm.sami@yahoo.com'], created: new Date() } },
-    { eventId: 32, type: 'ANIVERSARY', date: '2018-06-30', location: 'Wedding Garden', city: 'Chicago', price: 2800, earnest: 200, description: 'Some info about this special event.', team: { teamId: idGenerator(), teamName: 'Formatia Cornel Bujor', teamMembers: ['mhm.sami@yahoo.com'], created: new Date() } },
-    { eventId: 33, type: 'WEDDING', date: '2018-10-27', location: 'Central Hall', city: 'New York', price: 4000, earnest: 400, description: 'Some info about this special event.', team: { teamId: idGenerator(), teamName: 'Formatia Cornel Bujor', teamMembers: ['mhm.sami@yahoo.com'], created: new Date() } },
-    { eventId: 34, type: 'WEDDING', date: '2018-11-03', location: 'Chong Restaurant', city: 'Tokio', price: 2700, earnest: 200, description: 'Some info about this special event.', team: { teamId: idGenerator(), teamName: 'Formatia Cornel Bujor', teamMembers: ['mhm.sami@yahoo.com'], created: new Date() } },
-    { eventId: 35, type: 'GRADUATION PARTY', date: '2020-06-13', location: 'Elysium', city: 'Iasi', price: 3200, earnest: 300, description: 'Some info about this special event.', team: { teamId: idGenerator(), teamName: 'Formatia Cornel Bujor', teamMembers: ['mhm.sami@yahoo.com'], created: new Date() } },
-    { eventId: 36, type: 'WEDDING', date: '2018-01-13', location: 'Central Hall', city: 'New York', price: 3000, earnest: 300, description: 'Some info about this special event.', team: { teamId: idGenerator(), teamName: 'Formatia Cornel Bujor', teamMembers: ['mhm.sami@yahoo.com'], created: new Date() } },
-    { eventId: 37, type: 'ANIVERSARY', date: '2018-12-29', location: 'Wedding Garden', city: 'Chicago', price: 2800, earnest: 200, description: 'Some info about this special event.', team: { teamId: idGenerator(), teamName: 'Formatia Cornel Bujor', teamMembers: ['mhm.sami@yahoo.com'], created: new Date() } },
-    { eventId: 38, type: 'WEDDING', date: '2018-10-27', location: 'Central Hall', city: 'New York', price: 4000, earnest: 400, description: 'Some info about this special event.', team: { teamId: idGenerator(), teamName: 'Formatia Cornel Bujor', teamMembers: ['mhm.sami@yahoo.com'], created: new Date() } }
-
-],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "objectIdFieldName": "OBJECTID",
+  "uniqueIdField": {
+    "name": "OBJECTID",
+    "isSystemMaintained": true
+  },
+  "globalIdFieldName": "GlobalID",
+  "serverGens": {
+    "minServerGen": 8061,
+    "serverGen": 10103
+  },
+  "geometryType": "esriGeometryPoint",
+  "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+  },
+  "fields": [
+    {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID",
+      "sqlType": "sqlTypeOther",
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Judete",
+      "type": "esriFieldTypeString",
+      "alias": "Judete",
+      "sqlType": "sqlTypeOther",
+      "length": 50,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Cazuri_confirmate",
+      "type": "esriFieldTypeInteger",
+      "alias": "Cazuri confirmate",
+      "sqlType": "sqlTypeOther",
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "SIRUTA_judet",
+      "type": "esriFieldTypeInteger",
+      "alias": "SIRUTA_judet",
+      "sqlType": "sqlTypeOther",
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Regiune_dezvoltare",
+      "type": "esriFieldTypeString",
+      "alias": "Regiune_dezvoltare",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Populatie",
+      "type": "esriFieldTypeDouble",
+      "alias": "Populatie",
+      "sqlType": "sqlTypeOther",
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Persoane_in_carantina",
+      "type": "esriFieldTypeInteger",
+      "alias": "Persoane în carantină",
+      "sqlType": "sqlTypeOther",
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Persoane_izolate",
+      "type": "esriFieldTypeInteger",
+      "alias": "Persoane izolate",
+      "sqlType": "sqlTypeOther",
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Persoane_decedate",
+      "type": "esriFieldTypeInteger",
+      "alias": "Persoane decedate",
+      "sqlType": "sqlTypeOther",
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Persoane_vindecate",
+      "type": "esriFieldTypeInteger",
+      "alias": "Persoane vindecate",
+      "sqlType": "sqlTypeOther",
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Probe_in_asteptare",
+      "type": "esriFieldTypeInteger",
+      "alias": "Cazuri în așteptare",
+      "sqlType": "sqlTypeOther",
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Cazuri_infirmate",
+      "type": "esriFieldTypeInteger",
+      "alias": "Cazuri infirmate",
+      "sqlType": "sqlTypeOther",
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "GlobalID",
+      "type": "esriFieldTypeGlobalID",
+      "alias": "GlobalID",
+      "sqlType": "sqlTypeOther",
+      "length": 38,
+      "domain": null
+    },
+    {
+      "name": "EditDate",
+      "type": "esriFieldTypeDate",
+      "alias": "EditDate",
+      "sqlType": "sqlTypeOther",
+      "length": 8,
+      "domain": null,
+      "defaultValue": null
+    }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "features": [
+    {
+      "attributes": {
+        "OBJECTID": 22,
+        "Judete": "Alba",
+        "Cazuri_confirmate": 1,
+        "SIRUTA_judet": 10,
+        "Regiune_dezvoltare": "CENTRU",
+        "Populatie": 377575,
+        "Persoane_in_carantina": 53,
+        "Persoane_izolate": 982,
+        "Persoane_decedate": 0,
+        "Persoane_vindecate": 0,
+        "Probe_in_asteptare": 0,
+        "Cazuri_infirmate": 0,
+        "GlobalID": "813bd99d-d0d2-4632-a461-7f9a5e102afd",
+        "EditDate": 1584789584043
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 27,
+        "Judete": "Arad",
+        "Cazuri_confirmate": 8,
+        "SIRUTA_judet": 29,
+        "Regiune_dezvoltare": "VEST",
+        "Populatie": 471826,
+        "Persoane_in_carantina": 140,
+        "Persoane_izolate": 779,
+        "Persoane_decedate": 0,
+        "Persoane_vindecate": 0,
+        "Probe_in_asteptare": 0,
+        "Cazuri_infirmate": 0,
+        "GlobalID": "35774edb-021a-4380-9d5d-8963052762d9",
+        "EditDate": 1584789586737
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 28,
+        "Judete": "Argeş",
+        "Cazuri_confirmate": 1,
+        "SIRUTA_judet": 38,
+        "Regiune_dezvoltare": "SUD MUNTENIA",
+        "Populatie": 639930,
+        "Persoane_in_carantina": 84,
+        "Persoane_izolate": 2831,
+        "Persoane_decedate": 0,
+        "Persoane_vindecate": 0,
+        "Probe_in_asteptare": 0,
+        "Cazuri_infirmate": 0,
+        "GlobalID": "056f940e-b95a-4bc4-ab41-91e1375e21a1",
+        "EditDate": 1584789592925
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 1,
+        "Judete": "Bacău",
+        "Cazuri_confirmate": 2,
+        "SIRUTA_judet": 47,
+        "Regiune_dezvoltare": "NORD EST",
+        "Populatie": 743750,
+        "Persoane_in_carantina": 115,
+        "Persoane_izolate": 1802,
+        "Persoane_decedate": 0,
+        "Persoane_vindecate": 0,
+        "Probe_in_asteptare": 0,
+        "Cazuri_infirmate": 0,
+        "GlobalID": "6c6cbab7-8714-4995-9607-b8d035742371",
+        "EditDate": 1584789601295
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 2,
+        "Judete": "Bihor",
+        "Cazuri_confirmate": 5,
+        "SIRUTA_judet": 56,
+        "Regiune_dezvoltare": "NORD VEST",
+        "Populatie": 617827,
+        "Persoane_in_carantina": 74,
+        "Persoane_izolate": 2104,
+        "Persoane_decedate": 0,
+        "Persoane_vindecate": 0,
+        "Probe_in_asteptare": 0,
+        "Cazuri_infirmate": 0,
+        "GlobalID": "0bae6fc1-6085-4572-ad95-9e0982924f32",
+        "EditDate": 1584789106920
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 29,
+        "Judete": "Bistriţa Năsăud",
+        "Cazuri_confirmate": 4,
+        "SIRUTA_judet": 65,
+        "Regiune_dezvoltare": "NORD VEST",
+        "Populatie": 328685,
+        "Persoane_in_carantina": 112,
+        "Persoane_izolate": 811,
+        "Persoane_decedate": 0,
+        "Persoane_vindecate": 0,
+        "Probe_in_asteptare": 0,
+        "Cazuri_infirmate": 0,
+        "GlobalID": "4e79e8fc-9e60-40d7-b065-650a3c248124",
+        "EditDate": 1584789608819
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 3,
+        "Judete": "Botoşani",
+        "Cazuri_confirmate": 1,
+        "SIRUTA_judet": 74,
+        "Regiune_dezvoltare": "NORD EST",
+        "Populatie": 452674,
+        "Persoane_in_carantina": 69,
+        "Persoane_izolate": 807,
+        "Persoane_decedate": 0,
+        "Persoane_vindecate": 0,
+        "Probe_in_asteptare": 0,
+        "Cazuri_infirmate": 0,
+        "GlobalID": "637048b8-7b66-42f5-bd54-d406e266595b",
+        "EditDate": 1584789120581
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 30,
+        "Judete": "Brăila",
+        "Cazuri_confirmate": 2,
+        "SIRUTA_judet": 92,
+        "Regiune_dezvoltare": "SUD EST",
+        "Populatie": 348791,
+        "Persoane_in_carantina": 165,
+        "Persoane_izolate": 1092,
+        "Persoane_decedate": 0,
+        "Persoane_vindecate": 0,
+        "Probe_in_asteptare": 0,
+        "Cazuri_infirmate": 0,
+        "GlobalID": "ab3e8bdf-468e-4837-9b55-8252ab485658",
+        "EditDate": 1584789616856
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 4,
+        "Judete": "Braşov",
+        "Cazuri_confirmate": 25,
+        "SIRUTA_judet": 83,
+        "Regiune_dezvoltare": "CENTRU",
+        "Populatie": 633686,
+        "Persoane_in_carantina": 81,
+        "Persoane_izolate": 956,
+        "Persoane_decedate": 0,
+        "Persoane_vindecate": 0,
+        "Probe_in_asteptare": 0,
+        "Cazuri_infirmate": 0,
+        "GlobalID": "c60062e1-1e50-45aa-b8ff-a7cfff6d517e",
+        "EditDate": 1584789621747
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 39,
+        "Judete": "Bucureşti",
+        "Cazuri_confirmate": 110,
+        "SIRUTA_judet": 403,
+        "Regiune_dezvoltare": "BUCURESTI ILFOV",
+        "Populatie": 2112483,
+        "Persoane_in_carantina": 477,
+        "Persoane_izolate": 1423,
+        "Persoane_decedate": 0,
+        "Persoane_vindecate": 0,
+        "Probe_in_asteptare": 0,
+        "Cazuri_infirmate": 0,
+        "GlobalID": "f54618c2-a654-4a9c-9d50-76a6962389d0",
+        "EditDate": 1584788902764
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 5,
+        "Judete": "Buzău",
+        "Cazuri_confirmate": 2,
+        "SIRUTA_judet": 109,
+        "Regiune_dezvoltare": "SUD EST",
+        "Populatie": 470674,
+        "Persoane_in_carantina": 56,
+        "Persoane_izolate": 1764,
+        "Persoane_decedate": 0,
+        "Persoane_vindecate": 0,
+        "Probe_in_asteptare": 0,
+        "Cazuri_infirmate": 0,
+        "GlobalID": "d99c8438-423c-4459-9349-449dde2ad052",
+        "EditDate": 1584789154353
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 24,
+        "Judete": "Călăraşi",
+        "Cazuri_confirmate": 1,
+        "SIRUTA_judet": 519,
+        "Regiune_dezvoltare": "SUD MUNTENIA",
+        "Populatie": 312522,
+        "Persoane_in_carantina": 43,
+        "Persoane_izolate": 395,
+        "Persoane_decedate": 0,
+        "Persoane_vindecate": 0,
+        "Probe_in_asteptare": 0,
+        "Cazuri_infirmate": 0,
+        "GlobalID": "467efe06-1aeb-4b93-aea0-80d3e7b6dd36",
+        "EditDate": 1584702964572
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 6,
+        "Judete": "Caraş Severin",
+        "Cazuri_confirmate": 5,
+        "SIRUTA_judet": 118,
+        "Regiune_dezvoltare": "VEST",
+        "Populatie": 321931,
+        "Persoane_in_carantina": 68,
+        "Persoane_izolate": 1144,
+        "Persoane_decedate": 0,
+        "Persoane_vindecate": 0,
+        "Probe_in_asteptare": 0,
+        "Cazuri_infirmate": 0,
+        "GlobalID": "1f54b117-1e5b-4ff3-824a-eb0e6984b8d3",
+        "EditDate": 1584789636140
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 23,
+        "Judete": "Cluj",
+        "Cazuri_confirmate": 18,
+        "SIRUTA_judet": 127,
+        "Regiune_dezvoltare": "NORD VEST",
+        "Populatie": 728892,
+        "Persoane_in_carantina": 203,
+        "Persoane_izolate": 1067,
+        "Persoane_decedate": 0,
+        "Persoane_vindecate": 0,
+        "Probe_in_asteptare": 0,
+        "Cazuri_infirmate": 0,
+        "GlobalID": "8a0eb990-6c58-40a8-a7d3-829863a89891",
+        "EditDate": 1584788921027
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 7,
+        "Judete": "Constanţa",
+        "Cazuri_confirmate": 25,
+        "SIRUTA_judet": 136,
+        "Regiune_dezvoltare": "SUD EST",
+        "Populatie": 767514,
+        "Persoane_in_carantina": 112,
+        "Persoane_izolate": 2918,
+        "Persoane_decedate": 0,
+        "Persoane_vindecate": 0,
+        "Probe_in_asteptare": 0,
+        "Cazuri_infirmate": 0,
+        "GlobalID": "5f7dc1ab-e68c-4ce3-8f92-1200ffc159bb",
+        "EditDate": 1584789647913
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 31,
+        "Judete": "Covasna",
+        "Cazuri_confirmate": 7,
+        "SIRUTA_judet": 145,
+        "Regiune_dezvoltare": "CENTRU",
+        "Populatie": 227389,
+        "Persoane_in_carantina": 18,
+        "Persoane_izolate": 357,
+        "Persoane_decedate": 0,
+        "Persoane_vindecate": 0,
+        "Probe_in_asteptare": 0,
+        "Cazuri_infirmate": 0,
+        "GlobalID": "bccddc32-43de-42c9-a98d-307c155c9aea",
+        "EditDate": 1584789858099
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 19,
+        "Judete": "Dâmboviţa",
+        "Cazuri_confirmate": 0,
+        "SIRUTA_judet": 154,
+        "Regiune_dezvoltare": "SUD MUNTENIA",
+        "Populatie": 523730,
+        "Persoane_in_carantina": 38,
+        "Persoane_izolate": 1004,
+        "Persoane_decedate": 0,
+        "Persoane_vindecate": 0,
+        "Probe_in_asteptare": 0,
+        "Cazuri_infirmate": 0,
+        "GlobalID": "c3ada015-03ac-4457-a149-bec16fdab8e8",
+        "EditDate": 1584789658335
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 8,
+        "Judete": "Dolj",
+        "Cazuri_confirmate": 5,
+        "SIRUTA_judet": 163,
+        "Regiune_dezvoltare": "SUD VEST",
+        "Populatie": 693427,
+        "Persoane_in_carantina": 192,
+        "Persoane_izolate": 2316,
+        "Persoane_decedate": 0,
+        "Persoane_vindecate": 0,
+        "Probe_in_asteptare": 0,
+        "Cazuri_infirmate": 0,
+        "GlobalID": "1f72b20c-4cf6-403c-9ffe-ce3510b8827c",
+        "EditDate": 1584789663919
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 9,
+        "Judete": "Galaţi",
+        "Cazuri_confirmate": 2,
+        "SIRUTA_judet": 172,
+        "Regiune_dezvoltare": "SUD EST",
+        "Populatie": 627331,
+        "Persoane_in_carantina": 69,
+        "Persoane_izolate": 1603,
+        "Persoane_decedate": 0,
+        "Persoane_vindecate": 0,
+        "Probe_in_asteptare": 0,
+        "Cazuri_infirmate": 0,
+        "GlobalID": "b87c40bd-5c88-448c-89d4-8ef074b4ae03",
+        "EditDate": 1584789668813
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 40,
+        "Judete": "Giurgiu",
+        "Cazuri_confirmate": 2,
+        "SIRUTA_judet": 528,
+        "Regiune_dezvoltare": "SUD MUNTENIA",
+        "Populatie": 273904,
+        "Persoane_in_carantina": 62,
+        "Persoane_izolate": 449,
+        "Persoane_decedate": 0,
+        "Persoane_vindecate": 0,
+        "Probe_in_asteptare": 0,
+        "Cazuri_infirmate": 0,
+        "GlobalID": "a6596ba8-0856-40ab-8347-2db502fda048",
+        "EditDate": 1584789674167
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 20,
+        "Judete": "Gorj",
+        "Cazuri_confirmate": 4,
+        "SIRUTA_judet": 181,
+        "Regiune_dezvoltare": "SUD VEST",
+        "Populatie": 361467,
+        "Persoane_in_carantina": 194,
+        "Persoane_izolate": 1272,
+        "Persoane_decedate": 0,
+        "Persoane_vindecate": 0,
+        "Probe_in_asteptare": 0,
+        "Cazuri_infirmate": 0,
+        "GlobalID": "d310b811-9c91-4926-8f5d-b6ea06c20bd5",
+        "EditDate": 1584789680800
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 32,
+        "Judete": "Harghita",
+        "Cazuri_confirmate": 0,
+        "SIRUTA_judet": 190,
+        "Regiune_dezvoltare": "CENTRU",
+        "Populatie": 332366,
+        "Persoane_in_carantina": 20,
+        "Persoane_izolate": 1231,
+        "Persoane_decedate": 0,
+        "Persoane_vindecate": 0,
+        "Probe_in_asteptare": 0,
+        "Cazuri_infirmate": 0,
+        "GlobalID": "42c82b3e-52e5-4108-8c2b-29e21993f9cd",
+        "EditDate": 1584789236296
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 21,
+        "Judete": "Hunedoara",
+        "Cazuri_confirmate": 23,
+        "SIRUTA_judet": 207,
+        "Regiune_dezvoltare": "VEST",
+        "Populatie": 461832,
+        "Persoane_in_carantina": 57,
+        "Persoane_izolate": 1382,
+        "Persoane_decedate": 0,
+        "Persoane_vindecate": 0,
+        "Probe_in_asteptare": 0,
+        "Cazuri_infirmate": 0,
+        "GlobalID": "8bd5c412-229d-4771-8b3a-376dbf03f9bb",
+        "EditDate": 1584789689072
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 33,
+        "Judete": "Ialomiţa",
+        "Cazuri_confirmate": 3,
+        "SIRUTA_judet": 216,
+        "Regiune_dezvoltare": "SUD MUNTENIA",
+        "Populatie": 289659,
+        "Persoane_in_carantina": 38,
+        "Persoane_izolate": 695,
+        "Persoane_decedate": 0,
+        "Persoane_vindecate": 0,
+        "Probe_in_asteptare": 0,
+        "Cazuri_infirmate": 0,
+        "GlobalID": "3884eabc-2376-4ce6-b0c9-ef1713cb476c",
+        "EditDate": 1584789694297
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 25,
+        "Judete": "Iaşi",
+        "Cazuri_confirmate": 24,
+        "SIRUTA_judet": 225,
+        "Regiune_dezvoltare": "NORD EST",
+        "Populatie": 939359,
+        "Persoane_in_carantina": 113,
+        "Persoane_izolate": 1002,
+        "Persoane_decedate": 0,
+        "Persoane_vindecate": 0,
+        "Probe_in_asteptare": 0,
+        "Cazuri_infirmate": 0,
+        "GlobalID": "2050d8c0-079f-450b-8209-ab2226865fd8",
+        "EditDate": 1584789698124
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 42,
+        "Judete": "Ilfov",
+        "Cazuri_confirmate": 9,
+        "SIRUTA_judet": 234,
+        "Regiune_dezvoltare": "BUCURESTI ILFOV",
+        "Populatie": 423315,
+        "Persoane_in_carantina": 25,
+        "Persoane_izolate": 1616,
+        "Persoane_decedate": 0,
+        "Persoane_vindecate": 0,
+        "Probe_in_asteptare": 0,
+        "Cazuri_infirmate": 0,
+        "GlobalID": "10fef5a2-1b6b-42a2-b300-74e6605019b3",
+        "EditDate": 1584789298549
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 10,
+        "Judete": "Maramureş",
+        "Cazuri_confirmate": 4,
+        "SIRUTA_judet": 243,
+        "Regiune_dezvoltare": "NORD VEST",
+        "Populatie": 523298,
+        "Persoane_in_carantina": 321,
+        "Persoane_izolate": 1732,
+        "Persoane_decedate": 0,
+        "Persoane_vindecate": 0,
+        "Probe_in_asteptare": 0,
+        "Cazuri_infirmate": 0,
+        "GlobalID": "e4eb7a4c-7b3b-4c42-b821-f124502188aa",
+        "EditDate": 1584789707552
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 11,
+        "Judete": "Mehedinţi",
+        "Cazuri_confirmate": 2,
+        "SIRUTA_judet": 252,
+        "Regiune_dezvoltare": "SUD VEST",
+        "Populatie": 282249,
+        "Persoane_in_carantina": 67,
+        "Persoane_izolate": 1045,
+        "Persoane_decedate": 0,
+        "Persoane_vindecate": 0,
+        "Probe_in_asteptare": 0,
+        "Cazuri_infirmate": 0,
+        "GlobalID": "b70b5d44-f9f9-4d07-9c84-6e8a2654cc3e",
+        "EditDate": 1584789712910
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 12,
+        "Judete": "Mureş",
+        "Cazuri_confirmate": 6,
+        "SIRUTA_judet": 261,
+        "Regiune_dezvoltare": "CENTRU",
+        "Populatie": 593959,
+        "Persoane_in_carantina": 59,
+        "Persoane_izolate": 1688,
+        "Persoane_decedate": 0,
+        "Persoane_vindecate": 0,
+        "Probe_in_asteptare": 0,
+        "Cazuri_infirmate": 0,
+        "GlobalID": "87ba69d2-eda9-425f-9a68-c9eae818b866",
+        "EditDate": 1584789719367
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 26,
+        "Judete": "Neamţ",
+        "Cazuri_confirmate": 14,
+        "SIRUTA_judet": 270,
+        "Regiune_dezvoltare": "NORD EST",
+        "Populatie": 571755,
+        "Persoane_in_carantina": 136,
+        "Persoane_izolate": 1807,
+        "Persoane_decedate": 0,
+        "Persoane_vindecate": 0,
+        "Probe_in_asteptare": 0,
+        "Cazuri_infirmate": 0,
+        "GlobalID": "9d56e2ac-0dab-4ee8-b35c-f395523ab30b",
+        "EditDate": 1584789726137
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 34,
+        "Judete": "Olt",
+        "Cazuri_confirmate": 3,
+        "SIRUTA_judet": 289,
+        "Regiune_dezvoltare": "SUD VEST",
+        "Populatie": 441079,
+        "Persoane_in_carantina": 65,
+        "Persoane_izolate": 878,
+        "Persoane_decedate": 0,
+        "Persoane_vindecate": 0,
+        "Probe_in_asteptare": 0,
+        "Cazuri_infirmate": 0,
+        "GlobalID": "055fdbfe-a3a7-4cae-a425-95dde918e5f9",
+        "EditDate": 1584789359863
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 13,
+        "Judete": "Prahova",
+        "Cazuri_confirmate": 6,
+        "SIRUTA_judet": 298,
+        "Regiune_dezvoltare": "SUD MUNTENIA",
+        "Populatie": 799012,
+        "Persoane_in_carantina": 76,
+        "Persoane_izolate": 2603,
+        "Persoane_decedate": 0,
+        "Persoane_vindecate": 0,
+        "Probe_in_asteptare": 0,
+        "Cazuri_infirmate": 0,
+        "GlobalID": "b4c19a2d-8115-47e5-93bc-d48c177e58ff",
+        "EditDate": 1584789736539
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 41,
+        "Judete": "Sălaj",
+        "Cazuri_confirmate": 1,
+        "SIRUTA_judet": 314,
+        "Regiune_dezvoltare": "NORD VEST",
+        "Populatie": 245813,
+        "Persoane_in_carantina": 92,
+        "Persoane_izolate": 873,
+        "Persoane_decedate": 0,
+        "Persoane_vindecate": 0,
+        "Probe_in_asteptare": 0,
+        "Cazuri_infirmate": 0,
+        "GlobalID": "d3af3046-8fef-4897-a553-c936822af449",
+        "EditDate": 1584789740698
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 14,
+        "Judete": "Satu Mare",
+        "Cazuri_confirmate": 1,
+        "SIRUTA_judet": 305,
+        "Regiune_dezvoltare": "NORD VEST",
+        "Populatie": 388783,
+        "Persoane_in_carantina": 50,
+        "Persoane_izolate": 1384,
+        "Persoane_decedate": 0,
+        "Persoane_vindecate": 0,
+        "Probe_in_asteptare": 0,
+        "Cazuri_infirmate": 0,
+        "GlobalID": "8f25a549-1f0d-4936-bc0b-486676e7c53b",
+        "EditDate": 1584789746232
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 15,
+        "Judete": "Sibiu",
+        "Cazuri_confirmate": 0,
+        "SIRUTA_judet": 323,
+        "Regiune_dezvoltare": "CENTRU",
+        "Populatie": 466472,
+        "Persoane_in_carantina": 110,
+        "Persoane_izolate": 1641,
+        "Persoane_decedate": 0,
+        "Persoane_vindecate": 0,
+        "Probe_in_asteptare": 0,
+        "Cazuri_infirmate": 0,
+        "GlobalID": "82cd1aa4-f6f0-4c49-8ff0-e7c97884a1a5",
+        "EditDate": 1584789750778
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 16,
+        "Judete": "Suceava",
+        "Cazuri_confirmate": 16,
+        "SIRUTA_judet": 332,
+        "Regiune_dezvoltare": "NORD EST",
+        "Populatie": 753707,
+        "Persoane_in_carantina": 161,
+        "Persoane_izolate": 2086,
+        "Persoane_decedate": 0,
+        "Persoane_vindecate": 0,
+        "Probe_in_asteptare": 0,
+        "Cazuri_infirmate": 0,
+        "GlobalID": "673a5e64-166e-42cf-ab7d-c4a3c8b84d6c",
+        "EditDate": 1584788993147
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 35,
+        "Judete": "Teleorman",
+        "Cazuri_confirmate": 2,
+        "SIRUTA_judet": 341,
+        "Regiune_dezvoltare": "SUD MUNTENIA",
+        "Populatie": 378074,
+        "Persoane_in_carantina": 19,
+        "Persoane_izolate": 501,
+        "Persoane_decedate": 0,
+        "Persoane_vindecate": 0,
+        "Probe_in_asteptare": 0,
+        "Cazuri_infirmate": 0,
+        "GlobalID": "0bddb1e0-add8-4225-993b-acb5d95b5a5a",
+        "EditDate": 1584789516587
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 17,
+        "Judete": "Timiş",
+        "Cazuri_confirmate": 17,
+        "SIRUTA_judet": 350,
+        "Regiune_dezvoltare": "VEST",
+        "Populatie": 749923,
+        "Persoane_in_carantina": 129,
+        "Persoane_izolate": 1556,
+        "Persoane_decedate": 0,
+        "Persoane_vindecate": 0,
+        "Probe_in_asteptare": 0,
+        "Cazuri_infirmate": 0,
+        "GlobalID": "3afd7022-8e98-4cac-a9ed-36aaf03e7347",
+        "EditDate": 1584789761852
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 36,
+        "Judete": "Tulcea",
+        "Cazuri_confirmate": 0,
+        "SIRUTA_judet": 369,
+        "Regiune_dezvoltare": "SUD EST",
+        "Populatie": 239857,
+        "Persoane_in_carantina": 28,
+        "Persoane_izolate": 752,
+        "Persoane_decedate": 0,
+        "Persoane_vindecate": 0,
+        "Probe_in_asteptare": 0,
+        "Cazuri_infirmate": 0,
+        "GlobalID": "cd4bde7c-56b1-431b-ab27-af2ef75352c7",
+        "EditDate": 1584789766336
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 18,
+        "Judete": "Vâlcea",
+        "Cazuri_confirmate": 3,
+        "SIRUTA_judet": 387,
+        "Regiune_dezvoltare": "SUD VEST",
+        "Populatie": 398969,
+        "Persoane_in_carantina": 139,
+        "Persoane_izolate": 639,
+        "Persoane_decedate": 0,
+        "Persoane_vindecate": 0,
+        "Probe_in_asteptare": 0,
+        "Cazuri_infirmate": 0,
+        "GlobalID": "d5f3d418-8ae8-4998-909f-8a31f61561f7",
+        "EditDate": 1584789771844
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 37,
+        "Judete": "Vaslui",
+        "Cazuri_confirmate": 1,
+        "SIRUTA_judet": 378,
+        "Regiune_dezvoltare": "NORD EST",
+        "Populatie": 490520,
+        "Persoane_in_carantina": 39,
+        "Persoane_izolate": 1382,
+        "Persoane_decedate": 0,
+        "Persoane_vindecate": 0,
+        "Probe_in_asteptare": 0,
+        "Cazuri_infirmate": 0,
+        "GlobalID": "dbde30c0-4c5d-43b3-8bb4-05710d315866",
+        "EditDate": 1584789776967
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 38,
+        "Judete": "Vrancea",
+        "Cazuri_confirmate": 2,
+        "SIRUTA_judet": 396,
+        "Regiune_dezvoltare": "SUD EST",
+        "Populatie": 387553,
+        "Persoane_in_carantina": 38,
+        "Persoane_izolate": 829,
+        "Persoane_decedate": 0,
+        "Persoane_vindecate": 0,
+        "Probe_in_asteptare": 0,
+        "Cazuri_infirmate": 0,
+        "GlobalID": "b0c427fc-48f3-4740-ab66-6e351e746cfd",
+        "EditDate": 1584616452264
+      }
+    }
+  ]
 }
